@@ -1,0 +1,67 @@
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    color: white;
+}
+
+.caja {
+    width: 30%;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.form_registro {
+    text-align: center;
+}
+
+.subtitulo {
+    text-align: center;
+    color: white;
+}
+
+.inputs,
+.imputs2 {
+    width: calc(71% - 15px);     
+    padding: 13px;
+    margin: 5px;
+    border: 1px solid white; 
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.importaciones {
+    text-align: center;
+    color: white;
+}
+
+.guardar,
+.limpiar {
+    padding: 10px;
+    margin: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    font-family: 'Times New Roman', serif; 
+}
+
+.limpiar {
+    background-color: #e74c3c;
+}
+
+.guardar:hover,
+.limpiar:hover {
+    background-color: #2980b9;
+}
+
+
