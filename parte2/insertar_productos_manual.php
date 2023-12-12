@@ -10,10 +10,10 @@ require_once("../parte1/proyecto/conexionDB.php");
 
 
     $consulta="SELECT * FROM productos WHERE producto LIKE '%ferreteria%'";
-    #$consulta="INSERT INTO productos(id_producto,seccion,producto,origen,importado,precio) VALUES('ar40','FERRETERIA','alicates','China','VERDADERO', 12000)";
+    #$consulta="INSERT INTO productos(id_producto,seccion,producto,origen,importado,precio) VALUES('ar44','FERRETERIA','alicates','China','VERDADERO', 12000)";
     $resultado=mysqli_query($conexion,$consulta); 
 
     
     mysqli_close($conexion);
 
-    ?>
+    ?> 
